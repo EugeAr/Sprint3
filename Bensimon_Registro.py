@@ -30,12 +30,3 @@ class carrito_compras:
     txt_talle_xpath = "//*[@id='shopping-cart-table']/tbody/tr[1]/td[1]/div/dl/dd[2]"
     dpd_homepage_xpath = "/html/body/div[3]/header/div[1]/a/img"
 
-class producto2_carrito :
-    txt_producto2_link_text = "CAMISA TOKYO CUADROS ML"
-    btn_color_id = "option-label-color-277-item-177"
-    btn_talle_id = "option-label-talle-533-item-37"
-    txt_compra2 = "Agregaste CAMISA TOKYO CUADROS ML a tu carrito de compras."
-    txt_talle_xpath = "//*[@id='shopping-cart-table']/tbody[2]/tr[1]/td[1]/div/dl/dd[2]"
-    txt_color_xpath = "//*[@id='shopping-cart-table']/tbody[2]/tr[1]/td[1]/div/dl/dd[1]"
-    btn_finalizar_compra_xpath = "//*[@id='maincontent']/div[3]/div/div[3]/div[1]/ul/li/button"
-    txt_checkout = "Checkout"
